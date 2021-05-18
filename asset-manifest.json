@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.e2e4bd87.chunk.js",
-    "main.js.map": "/static/js/main.e2e4bd87.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e9b5456e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e9b5456e.js.map",
-    "static/js/2.4c6fe19f.chunk.js": "/static/js/2.4c6fe19f.chunk.js",
-    "static/js/2.4c6fe19f.chunk.js.map": "/static/js/2.4c6fe19f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ff72965a8fdc8d0ae322849003b3788a.js": "/precache-manifest.ff72965a8fdc8d0ae322849003b3788a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.4c6fe19f.chunk.js.LICENSE.txt": "/static/js/2.4c6fe19f.chunk.js.LICENSE.txt"
+    "main.js": "/daydream-exchange.github.io/static/js/main.84089e16.chunk.js",
+    "main.js.map": "/daydream-exchange.github.io/static/js/main.84089e16.chunk.js.map",
+    "runtime-main.js": "/daydream-exchange.github.io/static/js/runtime-main.e9352b95.js",
+    "runtime-main.js.map": "/daydream-exchange.github.io/static/js/runtime-main.e9352b95.js.map",
+    "static/js/2.bbd039af.chunk.js": "/daydream-exchange.github.io/static/js/2.bbd039af.chunk.js",
+    "static/js/2.bbd039af.chunk.js.map": "/daydream-exchange.github.io/static/js/2.bbd039af.chunk.js.map",
+    "index.html": "/daydream-exchange.github.io/index.html",
+    "precache-manifest.db2a1220388090154b119c9fd8bec5ba.js": "/daydream-exchange.github.io/precache-manifest.db2a1220388090154b119c9fd8bec5ba.js",
+    "service-worker.js": "/daydream-exchange.github.io/service-worker.js",
+    "static/js/2.bbd039af.chunk.js.LICENSE.txt": "/daydream-exchange.github.io/static/js/2.bbd039af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9b5456e.js",
-    "static/js/2.4c6fe19f.chunk.js",
-    "static/js/main.e2e4bd87.chunk.js"
+    "static/js/runtime-main.e9352b95.js",
+    "static/js/2.bbd039af.chunk.js",
+    "static/js/main.84089e16.chunk.js"
   ]
 }
