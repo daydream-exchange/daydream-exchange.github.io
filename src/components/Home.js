@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "2vh",
   },
   titleText: {
-    fontSize: "clamp(5rem, 14vw, 14rem)",
+    fontSize: "min(12vw, 12vw)",
     textAlign: "center",
     fontWeight: 600,
     // letterSpacing: "-2px",
