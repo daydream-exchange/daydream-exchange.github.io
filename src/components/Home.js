@@ -2,10 +2,11 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typewriter from "typewriter-effect";
 import Toolbar from "./Toolbar";
+import { pageWidth } from "./PageStyles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "60%",
+    width: `${pageWidth}%`,
     textAlign: "center",
     margin: "0 auto",
     marginTop: "14vh",

@@ -3,18 +3,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { Link } from "react-router-dom";
 import HoverHighlight from "./HoverHighlight";
-import { headerFooterFontSize } from "./PageStyles";
-
-const width = 60;
+import { headerFooterFontSize, pageWidth } from "./PageStyles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: `${width}%`,
+    width: `${pageWidth}%`,
     textAlign: "center",
     margin: "0 auto",
     fontSize: headerFooterFontSize,
-    position: "absolute",
-    left: `${(100 - width) / 2}%`,
+    marginTop: "12vh",
+    left: `${(100 - pageWidth) / 2}%`,
     bottom: "1vh",
   },
   name: {
@@ -52,11 +50,11 @@ export default function Footer() {
             <HoverHighlight>About</HoverHighlight>
           </Link>
           <Link
-            to="/how-it-works"
+            to="/explore"
             style={{ textDecoration: "none" }}
             className={classes.listItem}
           >
-            <HoverHighlight>How it works</HoverHighlight>
+            <HoverHighlight>Explore</HoverHighlight>
           </Link>
           <Link
             to="/login"

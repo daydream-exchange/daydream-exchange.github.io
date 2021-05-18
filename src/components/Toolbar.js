@@ -43,8 +43,8 @@ function ToolBar(props) {
         </Grid>
         <Grid item xs={2}></Grid>
         <Grid item xs={2}>
-          <Link to="/how-it-works" style={{ textDecoration: "none" }}>
-            <HoverHighlight>How it works</HoverHighlight>
+          <Link to="/explore" style={{ textDecoration: "none" }}>
+            <HoverHighlight>Explore</HoverHighlight>
           </Link>
         </Grid>
         <Grid item xs={2}>

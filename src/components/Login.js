@@ -5,12 +5,12 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Toolbar from "./Toolbar";
 import Footer from "./Footer";
-import { hoverColor2 } from "./PageStyles";
+import { hoverColor2, pageWidth } from "./PageStyles";
 import HoverHighlight from "./HoverHighlight";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "60%",
+    width: `${pageWidth}%`,
     textAlign: "center",
     margin: "0 auto",
     marginTop: "15vh",
@@ -99,6 +99,11 @@ export default function Login() {
               <LoginTextField
                 id="standard-basic"
                 label="Last Name"
+                className={classes.textField}
+              />
+              <LoginTextField
+                id="standard-basic"
+                label="Username"
                 className={classes.textField}
               />
               <LoginTextField

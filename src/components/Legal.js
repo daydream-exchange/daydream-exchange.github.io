@@ -3,13 +3,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import Toolbar from "./Toolbar";
 import Footer from "./Footer";
 import HoverHighlight from "./HoverHighlight";
+import { pageWidth } from "./PageStyles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "50%",
+    width: `${pageWidth}%`,
     textAlign: "center",
     margin: "0 auto",
-    marginTop: "20vh",
+    marginTop: "8vh",
   },
   title: {
     fontSize: "4vh",

@@ -4,4 +4,12 @@ const hoverColorAngle = "60deg";
 
 const headerFooterFontSize = "2vh";
 
-export { hoverColor1, hoverColor2, hoverColorAngle, headerFooterFontSize };
+const pageWidth = 60;
+
+export {
+  hoverColor1,
+  hoverColor2,
+  hoverColorAngle,
+  headerFooterFontSize,
+  pageWidth,
+};
