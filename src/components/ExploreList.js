@@ -26,7 +26,7 @@ export default function ExploreList() {
       <List className={classes.root}>
         <ListItem alignItems="flex-start">
           <ListItemAvatar>
-            <Avatar alt="Gavin G." src="/404" />
+            <Avatar alt="Gavin R." src="/404" />
           </ListItemAvatar>
           <ListItemText
             primary="Thoughts, young and old."
@@ -38,7 +38,7 @@ export default function ExploreList() {
                   className={classes.inline}
                   color="textPrimary"
                 >
-                  by Gavin G.
+                  by Gavin R.
                 </Typography>
                 {loremIpsum}
               </React.Fragment>
@@ -146,7 +146,7 @@ export default function ExploreList() {
 
         <ListItem alignItems="flex-start">
           <ListItemAvatar>
-            <Avatar alt="Gavin G." src="/404" />
+            <Avatar alt="Gavin R." src="/404" />
           </ListItemAvatar>
           <ListItemText
             primary="Thoughts, young and old."
@@ -158,7 +158,7 @@ export default function ExploreList() {
                   className={classes.inline}
                   color="textPrimary"
                 >
-                  by Gavin G.
+                  by Gavin R.
                 </Typography>
                 {loremIpsum}
               </React.Fragment>

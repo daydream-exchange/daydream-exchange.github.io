@@ -63,6 +63,13 @@ export default function Footer() {
           >
             <HoverHighlight>Login</HoverHighlight>
           </Link>
+          <Link
+            to="/profile"
+            style={{ textDecoration: "none" }}
+            className={classes.listItem}
+          >
+            <HoverHighlight>Profile</HoverHighlight>
+          </Link>
         </Grid>
         <Grid item xs={4}>
           <Link

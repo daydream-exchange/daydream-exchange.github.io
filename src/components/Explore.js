@@ -12,10 +12,11 @@ import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import ExploreList from "./ExploreList";
 import Chip from "@material-ui/core/Chip";
+import { pageWidth } from "./PageStyles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "50%",
+    width: `${pageWidth}%`,
     textAlign: "center",
     margin: "0 auto",
     marginTop: "8vh",
