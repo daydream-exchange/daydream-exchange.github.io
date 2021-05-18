@@ -61,17 +61,41 @@ function ToolBar(props) {
       <Grid container spacing={3} className={classes.menu}>
         <Grid item xs={1}></Grid>
         <Grid item xs={2}>
-          <div className={classes.menuItem}>About</div>
+          <Link
+            to="/"
+            style={{ textDecoration: "none" }}
+            className={classes.menuItem}
+          >
+            About
+          </Link>
         </Grid>
         <Grid item xs={2}>
-          <div className={classes.menuItem}>How it works</div>
+          <Link
+            to="/coming-soon"
+            style={{ textDecoration: "none" }}
+            className={classes.menuItem}
+          >
+            How it works
+          </Link>
         </Grid>
         <Grid item xs={2}></Grid>
         <Grid item xs={2}>
-          <div className={classes.menuItem}>Get Started</div>
+          <Link
+            to="/coming-soon"
+            style={{ textDecoration: "none" }}
+            className={classes.menuItem}
+          >
+            Get Started
+          </Link>
         </Grid>
         <Grid item xs={2}>
-          <div className={classes.menuItem}>Login</div>
+          <Link
+            to="/coming-soon"
+            style={{ textDecoration: "none" }}
+            className={classes.menuItem}
+          >
+            Login
+          </Link>
         </Grid>
         <Grid item xs={1}></Grid>
       </Grid>

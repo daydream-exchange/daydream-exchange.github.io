@@ -1,52 +1,34 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
 import Typewriter from "typewriter-effect";
-
 import Toolbar from "./Toolbar";
-
-const animationTime = "3s";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "60%",
     textAlign: "center",
     margin: "0 auto",
-    marginTop: "15vh",
+    marginTop: "14vh",
   },
-  introText: {
+  typewriter: {
     fontSize: "4vh",
-    fontWeight: 600,
-    width: "100%",
-    letterSpacing: "12px",
-  },
-  welcome: {
-    // textAlign: "left",
-    animation: `$fadeInDown ${animationTime}`,
-  },
-  to: {
-    textAlign: "center",
-    animation: `$fadeInUp ${animationTime}`,
-  },
-  the: {
-    textAlign: "right",
-    animation: `$fadeInDown ${animationTime}`,
+    marginBottom: "2vh",
   },
   titleText: {
     fontSize: "clamp(5rem, 14vw, 14rem)",
     textAlign: "center",
     fontWeight: 600,
-    letterSpacing: "-2px",
+    // letterSpacing: "-2px",
     fontFamily: "Cousine",
     lineHeight: "0.95em",
   },
   daydream: {
     willChange: "auto",
-    display: "block",
     backgroundRepeat: "no-repeat",
     // gradient from https://products.ls.graphics/mesh-gradients/
-    backgroundImage: "url(\"https://products.ls.graphics/mesh-gradients/images/05.-Flax.jpg\")",
-    // backgroundImage: 'url("static/Ronchi.jpg")',
+    // backgroundImage:
+    //   'url("https://products.ls.graphics/mesh-gradients/images/05.-Flax.jpg")',
+    backgroundImage: 'url("static/Flax.jpg")',
     backgroundSize: "200%",
     backgroundClip: "text",
     WebkitBackgroundClip: "text",
@@ -77,26 +59,6 @@ const useStyles = makeStyles((theme) => ({
       backgroundPosition: "5% 5%",
     },
   },
-  "@keyframes fadeInDown": {
-    "0%": {
-      opacity: "0",
-      transform: "translateY(-20px)",
-    },
-    "100%": {
-      opacity: "1",
-      transform: "translateY(0)",
-    },
-  },
-  "@keyframes fadeInUp": {
-    "0%": {
-      opacity: "0",
-      transform: "translateY(20px)",
-    },
-    "100%": {
-      opacity: "1",
-      transform: "translateY(0)",
-    },
-  },
 }));
 
 export default function Home() {
@@ -106,17 +68,13 @@ export default function Home() {
     <div>
       <Toolbar />
       <div className={classes.root}>
-        <Grid container spacing={3} className={classes.introText}>
-          <Grid item xs={4} className={classes.welcome}>
-            Welcome
-          </Grid>
-          <Grid item xs={4} className={classes.to}>
-            to
-          </Grid>
-          <Grid item xs={4} className={classes.the}>
-            the
-          </Grid>
-        </Grid>
+        <div className={classes.typewriter}>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString("Welcome to the").start();
+            }}
+          />
+        </div>
         <div className={classes.titleText}>
           <div className={classes.daydream}>Daydream</div>
           <div>Exchange</div>
