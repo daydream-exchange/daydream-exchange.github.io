@@ -2,8 +2,39 @@ html {
   /*background: #202020;*/
   font-family: Raleway, sans-serif;
   font-weight: 400;
+
+  /*background: linear-gradient(140deg, #d6aafc, #58caee, #4c8bf6, #59c2fd);*/
+/*  background: linear-gradient(140deg, #ffffff, #eeeeff, #eeffee, #ffeeee);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;*/
 }
 
 body {
   margin: 0;
 }
+
+/* https://www.gradient-animator.com/ */
+/*@-webkit-keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}*/
